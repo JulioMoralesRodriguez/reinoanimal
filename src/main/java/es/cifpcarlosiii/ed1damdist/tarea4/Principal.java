@@ -1,7 +1,16 @@
 package es.cifpcarlosiii.ed1damdist.tarea4;
 
+/**
+ * Clase principal del proyecto <br>
+ * Contiene el metodo main, desde el que se crean distintos tipos de objetos
+ */
 public class Principal {
-
+    /**
+     * Entrada del programa<br>
+     * Crea animales, los almacena en un array y comprueba si cada objeto pertenece a la clase Perro o Gato<br>
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
 /*
@@ -24,7 +33,7 @@ Esquema de clases de reino-animal
 
         System.out.println("pelos de gato: " + gato.getPelos());
 
-        Animal array[] = new Animal[4];
+        Animal[] array = new Animal[4];
 
         array[0] = animal;
         array[1] = mamifero;
